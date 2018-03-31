@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/0xc14m1z/time-travel-commit/issues"
   },
-  "homepage": "https://github.com/0xc14m1z/time-travel-commit#readme"
+  "homepage": "https://github.com/0xc14m1z/time-travel-commit#readme",
+  "dependencies": {
+    "yargs": "^11.0.0"
+  }
 }
