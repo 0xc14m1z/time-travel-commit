@@ -18,8 +18,8 @@ Options:
   --version      Show version number                                   [boolean]
   --help, -h     Show help                                             [boolean]
   --message, -m  Commit message                                       [required]
-  --date         Set a specific commit date              [default: "2018-03-31"]
-  --time, -t     Set a specific commit time                [default: "19:07:29"]
+  --date         Set a specific commit date                     [default: TODAY]
+  --time, -t     Set a specific commit time                       [default: NOW]
   --days, -d     Shift the commit date by these days                [default: 0]
 
 Examples:
