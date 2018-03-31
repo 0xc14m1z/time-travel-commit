@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/0xc14m1z/time-travel-commit#readme",
   "dependencies": {
+    "moment": "^2.22.0",
     "yargs": "^11.0.0"
   }
 }
