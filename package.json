@@ -13,8 +13,8 @@
     "type": "git",
     "url": "git+https://github.com/0xc14m1z/time-travel-commit.git"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "0xc14m1z <0xc14m1z@gmail.com>",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/0xc14m1z/time-travel-commit/issues"
   },
