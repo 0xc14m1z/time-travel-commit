@@ -15,6 +15,34 @@ const help = yargs =>
 
 const examples = yargs =>
   yargs
+    .example(
+      "$0 -m \"message\"",
+      "Commits at the current date and time"
+    )
+    .example(
+      "$0 --date 2018-01-01 -m \"message\"",
+      "Commits on the january 1st of 2018, at the current time"
+    )
+    .example(
+      "$0 --time 12:00:00 -m \"message\"",
+      "Commits on the current date, at noon"
+    )
+    .example(
+      "$0 --date 2018-01-01 --time 12:00:00 -m \"message\"",
+      "Commits on the january 1st of 2018 at noon"
+    )
+    .example(
+      "$0 --days -1 -m \"message\"",
+      "Commits on yesterday, at the current time"
+    )
+    .example(
+      "$0 --days -1 --time 12:00:00 -m \"message\"",
+      "Commits on yesterday, at noon"
+    )
+    .example(
+      "$0 --date 2018-01-01 --time 12:00:00 --days 10 -m \"message\"",
+      "Commits on january 10th of 2018 at noon"
+    )
 
 const options = yargs =>
   yargs.options({
