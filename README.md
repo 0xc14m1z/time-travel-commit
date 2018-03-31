@@ -23,17 +23,25 @@ Options:
   --days, -d     Shift the commit date by these days                [default: 0]
 
 Examples:
-  ttcommit -m "message"                                                   Commits at the current date and time
 
-  ttcommit --date 2018-01-01 -m "message"                                 Commits on the january 1st of 2018, at the current time
+  ttcommit -m "message"
+  Commits at the current date and time
 
-  ttcommit --time 12:00:00 -m "message"                                   Commits on the current date, at noon
+  ttcommit --date 2018-01-01 -m "message"
+  Commits on the january 1st of 2018, at the current time
 
-  ttcommit --date 2018-01-01 --time 12:00:00 -m "message"                 Commits on the january 1st of 2018 at noon
-  
-  ttcommit --days -1 -m "message"                                         Commits on yesterday, at the current time
+  ttcommit --time 12:00:00 -m "message"
+  Commits on the current date, at noon
 
-  ttcommit --days -1 --time 12:00:00 -m "message"                         Commits on yesterday, at noon
+  ttcommit --date 2018-01-01 --time 12:00:00 -m "message"
+  Commits on the january 1st of 2018 at noon
 
-  ttcommit --date 2018-01-01 --time 12:00:00 --days 10 -m "message"       Commits on january 10th of 2018 at noon
+  ttcommit --days -1 -m "message"
+  Commits on yesterday, at the current time
+
+  ttcommit --days -1 --time 12:00:00 -m "message"
+  Commits on yesterday, at noon
+
+  ttcommit --date 2018-01-01 --time 12:00:00 --days 10 -m "message"
+  Commits on january 10th of 2018 at noon
 ```
