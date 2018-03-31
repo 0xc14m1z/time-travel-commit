@@ -1,4 +1,7 @@
 # time-travel-commit
+
+[![Maintainability](https://api.codeclimate.com/v1/badges/7146a631d59a2bc985d0/maintainability)](https://codeclimate.com/github/0xc14m1z/time-travel-commit/maintainability)
+
 Little script that allows git commits in the past or future, even at specific times.
 
 ## how to install
