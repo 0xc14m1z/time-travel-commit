@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Little script that allows git commits in the past or future, even at specific times.",
   "main": "ttcommit",
+  "bin": {
+    "ttcommit": "./ttcommit"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
