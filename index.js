@@ -1,9 +1,9 @@
 #!/usr/bin/env node
 
 const yargs = require("yargs")
-const Options = require("./options")
-const Date = require("./date")
-const commit = require("./commit")
+const Options = require("./ttcommit/options")
+const Date = require("./ttcommit/date")
+const commit = require("./ttcommit/commit")
 
 const { date, time, days, message } = Options.parse(yargs).argv
 
